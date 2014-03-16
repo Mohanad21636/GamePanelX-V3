@@ -1,0 +1,217 @@
+<?php
+/*
+ * GamePanelX
+ * 
+ * Bulgarian Language file
+ * Written by Ellie Tayem
+ * 
+ * To translate to another language, copy this to a new PHP file named "yourlanguage.php", and translate all the english words on the right (to the right of the = sign).
+ * Try and keep the structure of the file the same, and make sure you close all '';
+ * 
+*/
+$lang = array();
+
+########################################################################
+
+// Common Words/Phrases
+$lang['yes']                = 'Да';
+$lang['no']                 = 'Не';
+$lang['active']             = 'Активен';
+$lang['inactive']           = 'Неактивен';
+$lang['setup']              = 'Настройка';
+$lang['settings']           = 'Настройки';
+$lang['language']           = 'Език';
+$lang['default_language']   = 'Език по подразбиране';
+$lang['email_address']      = 'Имейл адрес';
+$lang['company']            = 'Компания';
+$lang['theme']              = 'Тема';
+$lang['save']               = 'Запази';
+$lang['game']               = 'Игра';
+$lang['voice']              = 'Звук';
+$lang['desc']               = 'Описание';
+$lang['status']             = 'Статус';
+$lang['manage']             = 'Управление';
+$lang['info']               = 'Информация';
+$lang['owner']              = 'Притежател';
+$lang['date_added']         = 'Дата на добавяне';
+$lang['last_updated']       = 'Последно обновен';
+$lang['default']            = 'По подразбиране';
+$lang['delete']             = 'Изтрий';
+$lang['create']             = 'Създай';
+$lang['add']                = 'Добави';
+$lang['edit']               = 'Промени';
+$lang['failed']             = 'Провален';
+$lang['name']               = 'Име';
+$lang['first_name']         = 'Собствено име';
+$lang['last_name']          = 'Фамилно име';
+$lang['type']               = 'Вид';
+$lang['none']               = 'Никой';
+$lang['optional']           = 'Незадължителен';
+$lang['complete']           = 'Завърши';
+$lang['go_back']            = 'Връщане';
+$lang['saved']              = 'Запазено';
+
+// Tech Words
+$lang['server']             = 'Сървър';
+$lang['username']           = 'Потребителско име';
+$lang['password']           = 'Парола';
+$lang['newpassword']        = 'Нова парола';
+$lang['newpassword_conf']   = '<b>Нова парола</b> (подтвърди)';
+$lang['chpassword']         = 'Смени парола';
+$lang['cur_password']       = 'Сегашна парола';
+$lang['network']            = 'Мрежа';
+$lang['online']             = 'Онлайн';
+$lang['offline']            = 'Офлайн';
+$lang['connect']            = 'Свързване';
+$lang['startup']            = 'Стартиране';
+$lang['files']              = 'Файлове';
+$lang['command']            = 'Команда';
+$lang['local_dir']          = 'Локална директория';
+$lang['working_dir']        = 'Работеща директория';
+$lang['pid_file']           = 'PID Файл';
+$lang['ip']                 = 'IP Адрес';
+$lang['ips']                = 'IP Адреси';
+$lang['port']               = 'Портал';
+$lang['login']              = 'Вписване';
+$lang['logout']             = 'Отписване';
+$lang['logged_out']         = 'Успешно се отписахте';
+$lang['install']            = 'Инсталирай';
+$lang['installing']         = 'Инсталиране';
+$lang['not_installed']      = 'Не е инсталирано';
+
+$lang['unknown']            = 'Непознато';
+$lang['click_here']         = 'Натисни тук';
+$lang['documentation']      = 'GamePanelX документация';
+$lang['update_cmd']         = 'Обнови CMD';
+$lang['banned_start']       = 'Забранено стартирането на ценностите';
+$lang['banned_start_desc']  = '<b>Забележка:</b> Сложете всички букви ,които не искате клиентите да поставят в полето "ценност" в техните стартиращи редактори.';
+$lang['plugin']             = 'Plugin';
+$lang['plugins']            = 'Plugins';
+$lang['del_install']        = 'Моля изтрийте директорията "инсталация" преди да продължите!';
+$lang['version']            = 'Версия';
+$lang['system_update']      = 'Налично е обновление на системата!';
+$lang['invalid_login']      = 'Невалидно вписване! Моля опитайте отново.';
+$lang['permissions']        = 'Позволения';
+
+// Error messages
+$lang['err_query']          = 'Провал в сверяването с базата даннни';
+$lang['err_sql_update']     = 'Провал в обновяването на базата данни';
+
+// Left Panel
+$lang['home']               = 'Главна страница';
+$lang['setup']              = 'Стартиране';
+$lang['settings']           = 'Настройки';
+$lang['game_setups']        = 'Стартиране на игра';
+$lang['cloud_games']        = 'Виртуални игри';
+$lang['server_templates']   = 'Сървърни шаблони';
+$lang['template']           = 'Шаблон';
+$lang['templates']          = 'Шаблони';
+$lang['servers']            = 'Сървъри';
+$lang['all_servers']        = 'Всички сървъри';
+$lang['game_servers']       = 'Сървъри за игри';
+$lang['voice_servers']      = 'Звукови сървъри';
+$lang['create_server']      = 'Създай сървър';
+$lang['accounts']           = 'Акаунти';
+$lang['admins']             = 'Администратори';
+$lang['resellers']          = 'Риселъри';
+$lang['list_users']         = 'Списък с потребители';
+$lang['add_user']           = 'Добави потребител';
+$lang['list_admins']        = 'списък с администратори';
+$lang['add_admin']          = 'Добави администратор';
+$lang['list_resellers']     = 'Списък с риселъри';
+$lang['add_reseller']       = 'Добави риселър';
+$lang['welcome_msg']        = 'Добре дошли в GamePanelX';
+$lang['int_name']           = 'Вътрешно име';
+$lang['int_name_desc']      = 'Вътрешното име трябва да включва букви, числа и долни тирета, като "червено_1"';
+$lang['query_engine']       = 'Заявка за двигател';
+$lang['create_network']     = 'Създай мрежов сървър';
+
+// Templates
+$lang['delete_tp']          = 'Изтриий този шаблон';
+$lang['create_tp']          = 'Създай шаблон';
+$lang['file_path']          = 'Път на файла';
+$lang['browse']             = 'Търси';
+
+// Network
+$lang['network_server']     = 'Мрежов сървър';
+$lang['os']                 = 'Операционна система';
+$lang['location']           = 'Локализация';
+$lang['datacenter']         = 'Център за данни';
+$lang['local']              = 'Локален';
+$lang['local_server']       = 'Локален сървър';
+$lang['remote_server']      = 'Дистанциран сървър';
+$lang['no_enc_key']         = 'Не е намерен ключ за криптиране! Проверете "/configuration.php".';
+$lang['login_user']         = 'Вписване на потребител';
+$lang['login_pass']         = 'Вписване на парола';
+$lang['login_port']         = 'Портал на вписване';
+$lang['login_homedir']      = 'Начална директория';
+$lang['net_showing_ips']    = 'Показване на IP адреса на мрежовия сървър';
+$lang['srv_using_net']      = 'Има игрални сървъри, които използват този мрежов сървър! Първо изтрийте сървърите и опитайте отново.';
+$lang['add_ip']             = 'Добави IP адрес';
+$lang['new_ip']             = 'Нов IP адрес';
+$lang['ip_exists']          = 'Съжаляваме,този IP адрес вече съществува!';
+$lang['ip_port_used']       = 'Съжаляваме, този IP/Port комбинация вече се използват!';
+$lang['srv_using_ip']       = 'Има игрални сървъри, които използват този IP адрес! Изтрийте сървърите пчрво и опитайте отново.';
+$lang['invalid_ip']         = 'Грешен IP адрес! Моля проверете и опитайте отново.';
+
+// Servers
+$lang['create_sv']          = 'Създаване на сървър';
+$lang['invalid_port']       = 'Невалиден портал! Моля опитайте отново.';
+$lang['invalid_intname']    = 'Невалидно вътрешно име е засечено! Само букви, числа, - и _ са позволени. Моля опитайте отново.';
+$lang['item']               = 'Тема';
+$lang['value']              = 'Ценност';
+$lang['user_editable']      = 'Промяна на потребителя';
+$lang['restart']            = 'Рестартиране';
+$lang['stop']               = 'Спри';
+$lang['update']             = 'Обновяване';
+$lang['map']                = 'Карта';
+$lang['hostname']           = 'Име на хост';
+$lang['players']            = 'Играчи';
+$lang['show_options']       = 'Покажи всички опции';
+$lang['simple']             = 'Просто';
+$lang['advanced']           = 'Сложно';
+
+// Cloud
+$lang['cloud_avail']        = 'Игри са налични чрез <i>gpx виртуално</i>';
+$lang['cloud_topmsg']       = 'Колкото повече игри са добавени в GamePanelX Cloud, те ще бъдат налични тук.';
+
+// Games
+$lang['games_add_desc']     = 'Използвайте тази форма, за да добавите нова помощ за игра. Вие можете след това да продължите със създаването на шаблон за този игра.';
+$lang['games_up_icon']      = '<b>Note:</b> Обновете вашата 64x64 PNG икона до';
+$lang['note_steam_auto']    = '<b>Note:</b> За Steam-based игри, запазете File Path празно, за да използвате Steam auto-installer';
+
+// File Manager
+$lang['new_filename']       = 'Ново име на файл';
+$lang['new_dirname']        = 'Ново име на директория';
+
+// User perms
+$lang['access_ftp']         = 'Достъп до FTP';
+$lang['update_usr_det']     = 'Обнови детайлите на потребителя';
+$lang['user_exists']        = 'Съжаляваме, това потребителско име вече е заето!';
+
+// Home Page hints
+$lang['def_adm_step']       = 'Стъпка';
+$lang['def_adm_tip_docs']   = 'Моля проверете пълната документация';
+$lang['def_adm_tip_accts']  = 'Не е открито! Трябва да създадете потребителски акунт, за да създадете сървъри.';
+$lang['def_adm_tip_net']    = 'Не са намерени мрежови сървъри! Трябва да създадете един сега';
+$lang['def_adm_tip_tpl']    = 'Намерени са недовършени шаблони! За да създадете Сървъри, трябва да вземете игра и';
+$lang['def_adm_tip_srv1']   = 'Вие сте готови да създадете сървър!';
+$lang['def_adm_tip_srv2']   = 'Завършете тези стъпки, за да създадете игров/звуков сървър.';
+
+// Other
+$lang['api_key']            = 'API Ключ';
+
+##############################################################################################################
+
+// 3.0.8
+$lang['install_mirrors']    = 'Инсталирай звена';
+$lang['game_panel']         = 'Контрол панел на игра';
+$lang['show_console_out']   = 'Натисни, за да се покаже изхода на конзолата';
+$lang['config_file']        = 'Конфигурирани файлове';
+$lang['modified']           = 'Променено';
+$lang['accessed']           = 'Достъпен';
+$lang['size']               = 'Размер';
+$lang['maxplayers']         = 'Максимален брой играчи';
+$lang['hostname']           = 'Име на хост';
+
+?>
